@@ -14,3 +14,23 @@ number = randint(1,50)
 counter = 0
 while counter < 5:
      user_number = eval(input("enter a number:"))
+     counter += 1
+
+     if user_number < random_number:
+
+          print("your guess is too low")
+
+     elif user_number > random_number:
+
+          print("your guess is too high")
+
+     elif user_number == random_number:
+          break     
+     if user_number == random_number:
+          print("you win! ")
+     else:
+          print("The game is over! The correct number is" ) 
+          print(random_number)    
+
+
+               
